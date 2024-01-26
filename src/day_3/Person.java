@@ -1,4 +1,7 @@
-package day_2;
+package day_3;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class Person {
     String firstName;
@@ -6,7 +9,17 @@ public class Person {
     Double height;
     int age;
     boolean married;
-    String[] petNames;
+    private Set<Pet> pets= new HashSet<>();
+
+
+    public void addPet(Pet pet){
+        pet.setOwner(this);
+        this.pets.add(pet);
+    }
+
+    public void setPets(Set<Pet> pets) {
+        this.pets = pets;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -48,29 +61,23 @@ public class Person {
         this.married = married;
     }
 
-    public String[] getPetNames() {
-        return petNames;
-    }
 
-    public void setPetNames(String[] petNames) {
-        this.petNames = petNames;
-    }
 
     public void presentation(){
         System.out.println("Presentación de "+ firstName);
         System.out.println("Hola! mi nombre es "+ firstName +" "+lastName+".");
         System.out.println("Tengo "+ age +" años y "+height+" metros de altura.");
-        if (married == true){
+        if (married){
             System.out.println("Estoy casado/a.");
         }
         else{
             System.out.println("No estoy casado/a.");
         }
 
-        if (petNames.length > 0){
+        if (!pets.isEmpty()){
             System.out.println("Mis mascotas se llaman:");
-            for (int i=0; i < petNames.length; i++){
-                System.out.println("-"+petNames[i]);
+            for (Pet pet: pets){
+                System.out.println("-"+pet.getName()+" es un "+pet.getPetType()+" y tiene "+pet.getAge()+" años.");
             }
         }
         else{
@@ -79,12 +86,11 @@ public class Person {
 
     }
 
-    public Person(String firstName, String lastName, Double height, int age, boolean married, String[] petNames) {
+    public Person(String firstName, String lastName, Double height, int age, boolean married) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.height = height;
         this.age = age;
         this.married = married;
-        this.petNames = petNames;
     }
 }
