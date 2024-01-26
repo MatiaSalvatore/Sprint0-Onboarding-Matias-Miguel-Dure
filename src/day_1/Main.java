@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /*
+        
         //1.
         String firstName = "Matías";
         String lastName = "Dure";
@@ -61,7 +61,7 @@ public class Main {
         int[] array_numbers = {1,2,3,4,5,6};
         sum_odds_from_array(array_numbers);
         //8.
-        sum_even_from_array(array_numbers); */
+        sum_even_from_array(array_numbers);
         //9.
         calculator_menu();
 
