@@ -8,10 +8,19 @@
     <list default="true" id="b458e418-9abd-4f99-8ca0-077a1ecfde7e" name="Changes" comment="" />
 =======
     <list default="true" id="b458e418-9abd-4f99-8ca0-077a1ecfde7e" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/day_3/PetType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day_3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_3/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day_3/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_3/Pet.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/day_4/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/CalculatorMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/CalculatorOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/CalculatorWithMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> day_4
     </list>
 >>>>>>> day_2
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +31,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="Class" />
         <option value="Enum" />
+=======
+        <option value="Interface" />
+        <option value="Class" />
+>>>>>>> day_4
       </list>
     </option>
   </component>
@@ -44,6 +58,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   <component name="PropertiesComponent">{
@@ -84,6 +99,19 @@
 }</component>
   <component name="RunManager" selected="Application.day_3.Main">
 >>>>>>> day_3
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.day_4.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "day__4",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.day_4.Main">
+>>>>>>> day_4
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Sprint0-Onboarding-Matias-Miguel-Dure" />
@@ -91,6 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <configuration name="day_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -115,6 +144,14 @@
         <pattern>
           <option name="PATTERN" value="day_3.*" />
 >>>>>>> day_3
+=======
+    <configuration name="day_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_4.Main" />
+      <module name="Sprint0-Onboarding-Matias-Miguel-Dure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_4.*" />
+>>>>>>> day_4
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,6 +163,7 @@
       <list>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <item itemvalue="Application.day_1.Main" />
 =======
         <item itemvalue="Application.day_2.Main" />
@@ -133,6 +171,9 @@
 =======
         <item itemvalue="Application.day_3.Main" />
 >>>>>>> day_3
+=======
+        <item itemvalue="Application.day_4.Main" />
+>>>>>>> day_4
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
