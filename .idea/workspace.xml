@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b458e418-9abd-4f99-8ca0-077a1ecfde7e" name="Changes" comment="" />
+=======
+    <list default="true" id="b458e418-9abd-4f99-8ca0-077a1ecfde7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/day_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> day_2
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +42,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
@@ -45,6 +54,19 @@
   }
 }</component>
   <component name="RunManager" selected="Application.day_1.Main">
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.day_2.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "day__2",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.day_2.Main">
+>>>>>>> day_2
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Sprint0-Onboarding-Matias-Miguel-Dure" />
@@ -52,12 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="day_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day_1.Main" />
       <module name="Sprint0-Onboarding-Matias-Miguel-Dure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day_1.*" />
+=======
+    <configuration name="day_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_2.Main" />
+      <module name="Sprint0-Onboarding-Matias-Miguel-Dure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_2.*" />
+>>>>>>> day_2
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,7 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.day_1.Main" />
+=======
+        <item itemvalue="Application.day_2.Main" />
+>>>>>>> day_2
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
