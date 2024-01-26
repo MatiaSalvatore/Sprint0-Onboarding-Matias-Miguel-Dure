@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /*
+
         //1.
         String firstName = "Matías";
         String lastName = "Dure";
@@ -61,9 +61,13 @@ public class Main {
         int[] array_numbers = {1,2,3,4,5,6};
         sum_odds_from_array(array_numbers);
         //8.
-        sum_even_from_array(array_numbers); */
+        sum_even_from_array(array_numbers);
         //9.
         calculator_menu();
+        //11.
+        bowlingMenu();
+        //12.
+        bowlingOptions();
 
     }
     public static void is_prime_number(int number){
@@ -159,18 +163,118 @@ public class Main {
         int mult = num_1 * num_2;
         System.out.println("The result is "+ mult);
     }
-    public static void div(){
+    public static void div() {
         Scanner scn = new Scanner(System.in);
         System.out.println("Type a dividend...");
         int dividend = scn.nextInt();
         System.out.println("Type a divisor...");
         int divisor = scn.nextInt();
-        if (divisor != 0){
+        if (divisor != 0) {
             int div = dividend / divisor;
-            System.out.println("The result is "+ div);
-        }
-        else{
+            System.out.println("The result is " + div);
+        } else {
             System.out.println("Error! cannot divide by zero!");
+        }
+
+    }
+    //11.
+    public static void bowlingMenu () {
+        System.out.println("""
+                    Welcome!
+                    1. Data entry.
+                    2. Avaiable capacity.
+                    3. Money raised.
+                    4. Log out.
+                    """);
+    }
+    //12.
+    public static void bowlingOptions(){
+        String name = "";
+        int ID;
+        int age;
+        String passcheck="";
+        boolean pass;
+        int money_raised = 5000;
+        Scanner scn= new Scanner(System.in);
+        int numberofpeople = 500;
+        int option = scn.nextInt();
+
+        switch(option){
+            case 1:
+                System.out.println("Enter your name");
+                name = scn.next();
+                System.out.println("Enter your ID");
+                ID = scn.nextInt();
+                System.out.println("Enter your age");
+                age = scn.nextInt();
+                System.out.println("Do you have a pass? (YES/NO)");
+                passcheck = scn.next();
+                if (passcheck.equals("YES")){
+                    pass = true;
+                }
+                else {
+                    pass = false;
+                }
+                if (age >=21){
+                    System.out.println("You are allowed to enter!");
+                    if (pass){
+                        System.out.println("Do you want to use your pass? (YES/NO)");
+                        String options_1 = scn.next();
+                        if (options_1.equals("YES")){
+                            System.out.println("Wich pass? (VIP/DISCOUNTED");
+                            String options_3 = scn.next();
+                            if (options_3.equals("VIP")){
+                                if (numberofpeople <= 1500){
+                                    numberofpeople += numberofpeople + 1;
+                                    System.out.println("Your place is reserved");
+                                }
+                                else{
+                                    System.out.println("The place is is full!");
+                                }
+                            }
+                            else if (options_3.equals("DISCOUNTED")){
+                                System.out.println("Your ticket will cost half price!");
+                            }
+                            }
+
+                        else{
+                            System.out.println("Do you want to buy a ticket (YES/NO)");
+                            String options_2 = scn.next();
+                            if (options_2.equals("YES")){
+                                System.out.println("Do you want to buy a VIP TICKET (YES/NO)");
+                                String options_4 = scn.next();
+                                if (options_4.equals("YES")){
+                                    System.out.println("The cost is 2000, thank you for your purchase!");
+                                    money_raised += 2000;
+                                }
+                                else if (options_4.equals("NO")){
+                                    System.out.println("The cost is 1500, thank you for your purchase!");
+                                    money_raised += 1500;
+                                }
+                            }
+                            else{
+                                System.out.println("Bye bye!");
+                            }
+                        }
+                    }
+
+                }
+                else{
+                    System.out.println("You are not allowed to enter!");
+                }
+                break;
+            case 2:
+                int capacity_max = 1500;
+                int capacity = 1500 - numberofpeople;
+                System.out.println("Currently there are "+ capacity+ " available spaces.");
+                break;
+            case 3:
+                System.out.println("Current money raised: " + money_raised);
+                break;
+            case 4:
+                System.out.println("Bye bye!");
+            default:
+                break;
         }
 
     }
